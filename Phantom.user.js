@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Phantom
-// @version      1.6
+// @version      1.7
 // @require      https://code.jquery.com/jquery-3.6.0.min.js
 // @description  jut.su, autoskip, autoplay, hiro autoskip, hiro autoplay, jutsu autoplay, jutsu autoskip, Phantom
 // @author       hiro
@@ -52,14 +52,15 @@
 
     `)
 
-    let name = "Phantom"
+    let name = "Phantom "
+    let version = "1.7"
 
     $(".post_media.pm_videojs").append(
         " <div class='phantomx_jutsu_panel_extension'></div>"
     )
 
     $(".phantomx_jutsu_panel_extension").prepend(
-        " <div class='phantomx_title'><span style='color:#bee6c3;'>"+ name +"</span></div> ",
+        " <div class='phantomx_title'>"+ name +"<span style='color:#bee6c3;'>"+ version +"</span></div> ",
         " <div class='phantomx_middle'><span style='color:#bee6c3;'>Successfully loaded!</span></div> ",
         ' <div class="phantomx_footer"> <a target="_blank" href="https://github.com/H1RR0" class="phantomx_author">https://github.com/H1RR0</a></div> '
     )
