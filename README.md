@@ -1,4 +1,4 @@
-# Phantom
+# Phantom 💣
 Skips opening and ending for https://jut.su/ player
 
 # How to install? 🤔
