@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Phantom
-// @version      1.8
+// @version      1.8.1
 // @require      https://code.jquery.com/jquery-3.6.0.min.js
 // @description  jut.su, autoskip, autoplay, hiro autoskip, hiro autoplay, jutsu autoplay, jutsu autoskip, Phantom
 // @author       hiro
@@ -16,13 +16,13 @@
 
         GM_addStyle (`
 
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
        .phantomx_jutsu_panel_extension {
          user-select: none;
          display: flex;
          flex-direction: column;
-         font-family: 'Inter', sans-serif;
+         font-family: 'Poppins', sans-serif;
          padding: 1rem;
          font-size:12px;
          background:#3f3f3f;
@@ -41,8 +41,6 @@
          font-size: 10px;
        }
        .phantomx_jutsu_panel_extension .phantomx_footer a {
-         display: flex;
-	 flex-direction: column;
          opacity: .5;
          transition: opacity 250ms ease-in-out;
        }
@@ -53,7 +51,7 @@
     `)
 
     let name = "Phantom "
-    let version = "1.8"
+    let version = "1.8.1"
 
     $(".post_media.pm_videojs").append(
         " <div class='phantomx_jutsu_panel_extension'></div>"
