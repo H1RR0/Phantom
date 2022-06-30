@@ -4,6 +4,8 @@
 // @require      https://code.jquery.com/jquery-3.6.0.min.js
 // @description  jut.su, autoskip, autoplay, hiro autoskip, hiro autoplay, jutsu autoplay, jutsu autoskip, Phantom
 // @author       hiro
+// @updateURL    https://github.com/H1RR0/Phantom/raw/main/Phantom.user.js
+// @downloadURL  https://github.com/H1RR0/Phantom/raw/main/Phantom.user.js
 // @match        https://jut.su/*
 // @icon         https://gen.jut.su/safari_152.png
 // @grant        GM_addStyle
