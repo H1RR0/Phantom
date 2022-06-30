@@ -15,6 +15,11 @@
     'use strict';
 
         GM_addStyle (`
+	
+	@font-face {
+		font-family: "pixel";
+		src: url("https://github.com/H1RR0/Phantom/raw/main/assets/pixel.ttf");
+	}
 
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
 
@@ -22,7 +27,7 @@
          user-select: none;
          display: flex;
          flex-direction: column;
-         font-family: 'Inter', sans-serif;
+         font-family: 'pixel', sans-serif;
          padding: 1rem;
          font-size:12px;
          background:#3f3f3f;
