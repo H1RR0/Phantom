@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Phantom
-// @version      1.3
+// @version      1.4
 // @require      https://code.jquery.com/jquery-3.6.0.min.js
 // @description  jut.su, autoskip, autoplay, hiro autoskip, hiro autoplay, jutsu autoplay, jutsu autoskip, Phantom
 // @author       hiro
